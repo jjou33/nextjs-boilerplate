@@ -34,7 +34,6 @@
     // 파일 경로가 틀렸는지 확인하는 옵션 끄기
     // "import/no-unresolved": ["error", { "caseSensitive": false }],
     "import/no-unresolved": 0,
-
     // jsx 파일 확장자 .jx, jsx, ts, tsx 허용
     "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
     // 함수의 형태 정의 arrow-function , function-declaration 중 

@@ -24,7 +24,7 @@ export const AppLink = styled.a`
 `
 
 export const AppHeaderWrapper = styled.header`
-  background-color: red;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

@@ -1,11 +1,11 @@
 import * as S from './styled'
-import logo from './logo.svg'
 
 const Home = () => {
+  const LOGO_URL = '/static/logo.svg'
   return (
     <S.AppContainer>
       <S.AppHeaderWrapper>
-        <S.LogoWrapper src={logo} alt={'logo'} />
+        <S.LogoWrapper src={LOGO_URL} alt={'logo'} />
         <p>
           {'Edit '}
           <code>{'src/App.tsx'}</code> {'and save to reload.'}
